@@ -19,82 +19,81 @@ msgstr ""
 #: init.lua
 #, fuzzy
 msgid "Silver Ore"
-msgstr "Gm"
+msgstr "Gümüş madeni"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Lump"
-msgstr "Gm"
+msgstr "Gümüş yığını"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Ingot"
-msgstr "Gm"
+msgstr "Gümüş klesi"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Block"
-msgstr "Gm"
+msgstr "Gümüş blok"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Pickaxe"
-msgstr "%s kazma"
+msgstr "Gümüş kazma"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Shovel"
-msgstr "%s krek"
+msgstr "Gümüş kürek"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Axe"
-msgstr "Gm"
+msgstr "Gümüş balta"
 
 #: init.lua
-#, fuzzy
 msgid "Silver Hoe"
-msgstr "Gm"
+msgstr ""
 
 #: init.lua
 #, fuzzy
 msgid "Silver Sword"
-msgstr "Gm"
+msgstr "Gümüş kılıç"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Ore"
-msgstr "%s madeni"
+msgstr "Kalay madeni"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Lump"
-msgstr "%s yn"
+msgstr "Kalay yığını"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Ingot"
-msgstr "%s klesi"
+msgstr "Kalay klesi"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Block"
-msgstr "%s blok"
+msgstr "Kalay blok"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Pickaxe"
-msgstr "%s kazma"
+msgstr "Kalay kazma"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Shovel"
-msgstr "%s krek"
+msgstr "Kalay kürek"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Axe"
-msgstr "%s balta"
+msgstr "Kalay balta"
 
 #: init.lua
 msgid "Tin Hoe"
@@ -103,60 +102,60 @@ msgstr ""
 #: init.lua
 #, fuzzy
 msgid "Tin Sword"
-msgstr "%s kl"
+msgstr "Kalay kılıç"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Ore"
-msgstr "Mithril"
+msgstr "Mithril madeni"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Lump"
-msgstr "Mithril"
+msgstr "Mithril yığını"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Ingot"
-msgstr "Mithril"
+msgstr "Mithril külçesi"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Block"
-msgstr "Mithril"
+msgstr "Mithril blok"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Pickaxe"
-msgstr "%s kazma"
+msgstr "Mithril kazma"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Shovel"
-msgstr "%s krek"
+msgstr "Mithril kürek"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Axe"
-msgstr "Mithril"
+msgstr "Mithril balta"
 
 #: init.lua
-#, fuzzy
 msgid "Mythril Hoe"
-msgstr "Mithril"
+msgstr ""
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Sword"
-msgstr "Mithril"
+msgstr "Mithril kılıç"
 
 #: init.lua
 msgid "Copper Rail"
 msgstr "Bakr ray"
 
 #: init.lua
+#, fuzzy
 msgid "Loaded!"
-msgstr ""
+msgstr "yüklendi"
 
 #~ msgid "Tin"
 #~ msgstr "Kalay"

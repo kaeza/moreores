@@ -19,82 +19,81 @@ msgstr ""
 #: init.lua
 #, fuzzy
 msgid "Silver Ore"
-msgstr "argent"
+msgstr "Mineral en argent"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Lump"
-msgstr "argent"
+msgstr "Roche en argent"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Ingot"
-msgstr "argent"
+msgstr "Lingot en argent"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Block"
-msgstr "argent"
+msgstr "Bloc en argent"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Pickaxe"
-msgstr "Pioche en %s"
+msgstr "Pioche en argent"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Shovel"
-msgstr "Pelle en %s"
+msgstr "Pelle en argent"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Axe"
-msgstr "argent"
+msgstr "Hache en argent"
 
 #: init.lua
-#, fuzzy
 msgid "Silver Hoe"
-msgstr "argent"
+msgstr ""
 
 #: init.lua
 #, fuzzy
 msgid "Silver Sword"
-msgstr "argent"
+msgstr "Épée en argent"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Ore"
-msgstr "Minerai en %s"
+msgstr "Minerai en étain"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Lump"
-msgstr "Roche en %s"
+msgstr "Roche en étain"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Ingot"
-msgstr "Lingot en %s"
+msgstr "Lingot en étain"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Block"
-msgstr "Bloc en %s"
+msgstr "Bloc en étain"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Pickaxe"
-msgstr "Pioche en %s"
+msgstr "Pioche en étain"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Shovel"
-msgstr "Pelle en %s"
+msgstr "Pelle en étain"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Axe"
-msgstr "Hache en %s"
+msgstr "Hache en étain"
 
 #: init.lua
 msgid "Tin Hoe"
@@ -103,60 +102,60 @@ msgstr ""
 #: init.lua
 #, fuzzy
 msgid "Tin Sword"
-msgstr "pe en %s"
+msgstr "Épée en étain"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Ore"
-msgstr "mithril"
+msgstr "Mineral en mithril"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Lump"
-msgstr "mithril"
+msgstr "Roche en mithril"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Ingot"
-msgstr "mithril"
+msgstr "Lingot en mithril"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Block"
-msgstr "mithril"
+msgstr "Bloc en mithril"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Pickaxe"
-msgstr "Pioche en %s"
+msgstr "Pioche en mithril"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Shovel"
-msgstr "Pelle en %s"
+msgstr "Pelle en mithril"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Axe"
-msgstr "mithril"
+msgstr "Hache en mithril"
 
 #: init.lua
-#, fuzzy
 msgid "Mythril Hoe"
-msgstr "mithril"
+msgstr ""
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Sword"
-msgstr "mithril"
+msgstr "Épée en mithril"
 
 #: init.lua
 msgid "Copper Rail"
 msgstr "Rail en cuivre"
 
 #: init.lua
+#, fuzzy
 msgid "Loaded!"
-msgstr ""
+msgstr "a été chargé"
 
 #~ msgid "Tin"
 #~ msgstr "tain"

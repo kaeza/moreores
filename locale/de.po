@@ -19,144 +19,146 @@ msgstr ""
 #: init.lua
 #, fuzzy
 msgid "Silver Ore"
-msgstr "Silber"
+msgstr "Silbererz"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Lump"
-msgstr "Silber"
+msgstr "Silberklumpen"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Ingot"
-msgstr "Silber"
+msgstr "Silberbarren"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Block"
-msgstr "Silber"
+msgstr "Silberblock"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Pickaxe"
-msgstr "%sspitzhacke"
+msgstr "Silberspitzhacke"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Shovel"
-msgstr "%sschaufel"
+msgstr "Silberschaufel"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Axe"
-msgstr "Silber"
+msgstr "Silberaxt"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Hoe"
-msgstr "Silber"
+msgstr "Silberhacke"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Sword"
-msgstr "Silber"
+msgstr "Silberschwert"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Ore"
-msgstr "%serz"
+msgstr "Zinnerz"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Lump"
-msgstr "%sklumpen"
+msgstr "Zinnklumpen"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Ingot"
-msgstr "%sbarren"
+msgstr "Zinnbarren"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Block"
-msgstr "%sblock"
+msgstr "Zinnblock"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Pickaxe"
-msgstr "%sspitzhacke"
+msgstr "Zinnspitzhacke"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Shovel"
-msgstr "%sschaufel"
+msgstr "Zinnschaufel"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Axe"
-msgstr "%saxt"
+msgstr "Zinnaxt"
 
 #: init.lua
+#, fuzzy
 msgid "Tin Hoe"
-msgstr ""
+msgstr "Zinnhacke"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Sword"
-msgstr "%sschwert"
+msgstr "Zinnschwert"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Ore"
-msgstr "Mithril"
+msgstr "Mithrilerz"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Lump"
-msgstr "Mithril"
+msgstr "Mithrilklumpen"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Ingot"
-msgstr "Mithril"
+msgstr "Mithrilbarren"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Block"
-msgstr "Mithril"
+msgstr "Mithrilblock"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Pickaxe"
-msgstr "%sspitzhacke"
+msgstr "Mithrilspitzhacke"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Shovel"
-msgstr "%sschaufel"
+msgstr "Mithrilschaufel"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Axe"
-msgstr "Mithril"
+msgstr "Mithrilaxt"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Hoe"
-msgstr "Mithril"
+msgstr "Mithrilhacke"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Sword"
-msgstr "Mithril"
+msgstr "Mithrilschwert"
 
 #: init.lua
 msgid "Copper Rail"
 msgstr "Kupferschiene"
 
 #: init.lua
+#, fuzzy
 msgid "Loaded!"
-msgstr ""
+msgstr "Geladen"
 
 #~ msgid "Tin"
 #~ msgstr "Zinn"

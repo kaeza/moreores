@@ -19,82 +19,81 @@ msgstr ""
 #: init.lua
 #, fuzzy
 msgid "Silver Ore"
-msgstr "Argento"
+msgstr "Minerale di argento"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Lump"
-msgstr "Argento"
+msgstr "Argento grezzo"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Ingot"
-msgstr "Argento"
+msgstr "Lingotto di argento"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Block"
-msgstr "Argento"
+msgstr "Blocco di argento"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Pickaxe"
-msgstr "Piccone di %s"
+msgstr "Piccone di argento"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Shovel"
-msgstr "Badile di %s"
+msgstr "Badile di argento"
 
 #: init.lua
 #, fuzzy
 msgid "Silver Axe"
-msgstr "Argento"
+msgstr "Ascia di argento"
 
 #: init.lua
-#, fuzzy
 msgid "Silver Hoe"
-msgstr "Argento"
+msgstr ""
 
 #: init.lua
 #, fuzzy
 msgid "Silver Sword"
-msgstr "Argento"
+msgstr "Spada di argento"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Ore"
-msgstr "Minerale di %s"
+msgstr "Minerale di stagno"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Lump"
-msgstr "%s grezzo"
+msgstr "Stagno grezzo"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Ingot"
-msgstr "Lingotto di %s"
+msgstr "Lingotto di stagno"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Block"
-msgstr "Blocco di %s"
+msgstr "Blocco di stagno"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Pickaxe"
-msgstr "Piccone di %s"
+msgstr "Piccone di stagno"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Shovel"
-msgstr "Badile di %s"
+msgstr "Badile di stagno"
 
 #: init.lua
 #, fuzzy
 msgid "Tin Axe"
-msgstr "Ascia di %s"
+msgstr "Ascia di stagno"
 
 #: init.lua
 msgid "Tin Hoe"
@@ -103,60 +102,60 @@ msgstr ""
 #: init.lua
 #, fuzzy
 msgid "Tin Sword"
-msgstr "Spada di %s"
+msgstr "Spada di stagno"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Ore"
-msgstr "Mithril"
+msgstr "Minerale di mithril"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Lump"
-msgstr "Mithril"
+msgstr "Mithril grezzo"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Ingot"
-msgstr "Mithril"
+msgstr "Lingotto di mithril"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Block"
-msgstr "Mithril"
+msgstr "Blocco di mithril"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Pickaxe"
-msgstr "Piccone di %s"
+msgstr "Piccone di mithril"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Shovel"
-msgstr "Badile di %s"
+msgstr "Badile di mithril"
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Axe"
-msgstr "Mithril"
+msgstr "Ascia di mithril"
 
 #: init.lua
-#, fuzzy
 msgid "Mythril Hoe"
-msgstr "Mithril"
+msgstr ""
 
 #: init.lua
 #, fuzzy
 msgid "Mythril Sword"
-msgstr "Mithril"
+msgstr "Spada di mithril"
 
 #: init.lua
 msgid "Copper Rail"
 msgstr "Binario di rame"
 
 #: init.lua
+#, fuzzy
 msgid "Loaded!"
-msgstr ""
+msgstr "caricato"
 
 #~ msgid "Tin"
 #~ msgstr "Stagno"
