@@ -14,6 +14,8 @@ moreores = {}
 local modpath = minetest.get_modpath("moreores")
 local S, NS = dofile(modpath.."/intllib.lua")
 
+moreores.gettext, moreores.ngettext = S, NS
+
 dofile(modpath .. "/readsettings.lua")
 dofile(modpath .. "/loot.lua")
 dofile(modpath .. "/mg.lua")
@@ -79,7 +81,7 @@ local function get_recipe(c, name)
 	end
 end
 
-local function add_ore(modname, description, mineral_name, oredef)
+local function add_ore(modname, descriptions, mineral_name, oredef)
 	local img_base = modname .. "_" .. mineral_name
 	local toolimg_base = modname .. "_tool_"..mineral_name
 	local tool_base = modname .. ":"
@@ -91,7 +93,7 @@ local function add_ore(modname, description, mineral_name, oredef)
 
 	if oredef.makes.ore then
 		minetest.register_node(modname .. ":mineral_" .. mineral_name, {
-			description = S("%s Ore"):format(S(description)),
+			description = descriptions.ore,
 			tiles = {"default_stone.png^" .. modname .. "_mineral_" .. mineral_name .. ".png"},
 			groups = {cracky = 3},
 			sounds = default_stone_sounds,
@@ -102,7 +104,7 @@ local function add_ore(modname, description, mineral_name, oredef)
 	if oredef.makes.block then
 		local block_item = item_base .. "_block"
 		minetest.register_node(block_item, {
-			description = S("%s Block"):format(S(description)),
+			description = descriptions.block,
 			tiles = { img_base .. "_block.png" },
 			groups = {snappy = 1, bendy = 2, cracky = 1, melty = 2, level= 2},
 			sounds = default_metal_sounds,
@@ -124,7 +126,7 @@ local function add_ore(modname, description, mineral_name, oredef)
 
 	if oredef.makes.lump then
 		minetest.register_craftitem(lump_item, {
-			description = S("%s Lump"):format(S(description)),
+			description = descriptions.lump,
 			inventory_image = img_base .. "_lump.png",
 		})
 		minetest.register_alias(mineral_name .. "_lump", lump_item)
@@ -139,7 +141,7 @@ local function add_ore(modname, description, mineral_name, oredef)
 
 	if oredef.makes.ingot then
 		minetest.register_craftitem(ingot, {
-			description = S("%s Ingot"):format(S(description)),
+			description = descriptions.ingot,
 			inventory_image = img_base .. "_ingot.png",
 		})
 		minetest.register_alias(mineral_name .. "_ingot", ingot)
@@ -167,7 +169,7 @@ local function add_ore(modname, description, mineral_name, oredef)
 
 	for tool_name, tooldef in pairs(oredef.tools) do
 		local tdef = {
-			description = "",
+			description = descriptions[tool_name],
 			inventory_image = toolimg_base .. tool_name .. ".png",
 			tool_capabilities = {
 				max_drop_level = 3,
@@ -179,30 +181,25 @@ local function add_ore(modname, description, mineral_name, oredef)
 		if tool_name == "sword" then
 			tdef.tool_capabilities.full_punch_interval = oredef.full_punch_interval
 			tdef.tool_capabilities.damage_groups = oredef.damage_groups
-			tdef.description = S("%s Sword"):format(S(description))
 		end
 
 		if tool_name == "pick" then
 			tdef.tool_capabilities.full_punch_interval = oredef.full_punch_interval
 			tdef.tool_capabilities.damage_groups = oredef.damage_groups
-			tdef.description = S("%s Pickaxe"):format(S(description))
 		end
 
 		if tool_name == "axe" then
 			tdef.tool_capabilities.full_punch_interval = oredef.full_punch_interval
 			tdef.tool_capabilities.damage_groups = oredef.damage_groups
-			tdef.description = S("%s Axe"):format(S(description))
 		end
 
 		if tool_name == "shovel" then
 			tdef.full_punch_interval = oredef.full_punch_interval
 			tdef.tool_capabilities.damage_groups = oredef.damage_groups
-			tdef.description = S("%s Shovel"):format(S(description))
             tdef.wield_image = toolimg_base .. tool_name .. ".png^[transformR90"
 		end
 
 		if tool_name == "hoe" then
-			tdef.description = S("%s Hoe"):format(S(description))
 			local uses = tooldef.uses
 			tooldef.uses = nil
 			tdef.on_use = function(itemstack, user, pointed_thing)
@@ -229,7 +226,17 @@ local oredefs = {}
 
 if moreores.silver_enabled then
 oredefs.silver = {
-	description = S("Silver"),
+	descriptions = {
+		ore    = S("Silver Ore"),
+		lump   = S("Silver Lump"),
+		ingot  = S("Silver Ingot"),
+		block  = S("Silver Block"),
+		pick   = S("Silver Pickaxe"),
+		shovel = S("Silver Shovel"),
+		axe    = S("Silver Axe"),
+		hoe    = S("Silver Hoe"),
+		sword  = S("Silver Sword"),
+	},
 	makes = {ore = true, block = true, lump = true, ingot = true, chest = true},
 	oredef = {clust_scarcity = moreores.silver_chunk_size * moreores.silver_chunk_size * moreores.silver_chunk_size,
 		clust_num_ores = moreores.silver_ore_per_chunk,
@@ -264,7 +271,17 @@ end
 
 if moreores.tin_enabled then
 oredefs.tin = {
-	description = S("Tin"),
+	descriptions = {
+		ore    = S("Tin Ore"),
+		lump   = S("Tin Lump"),
+		ingot  = S("Tin Ingot"),
+		block  = S("Tin Block"),
+		pick   = S("Tin Pickaxe"),
+		shovel = S("Tin Shovel"),
+		axe    = S("Tin Axe"),
+		hoe    = S("Tin Hoe"),
+		sword  = S("Tin Sword"),
+	},
 	makes = {ore = true, block = true, lump = true, ingot = true, chest = false},
 	oredef = {clust_scarcity = moreores.tin_chunk_size * moreores.tin_chunk_size * moreores.tin_chunk_size,
 		clust_num_ores = moreores.tin_ore_per_chunk,
@@ -278,7 +295,17 @@ end
 
 if moreores.mithril_enabled then
 oredefs.mithril = {
-	description = S("Mithril"),
+	descriptions = {
+		ore    = S("Mythril Ore"),
+		lump   = S("Mythril Lump"),
+		ingot  = S("Mythril Ingot"),
+		block  = S("Mythril Block"),
+		pick   = S("Mythril Pickaxe"),
+		shovel = S("Mythril Shovel"),
+		axe    = S("Mythril Axe"),
+		hoe    = S("Mythril Hoe"),
+		sword  = S("Mythril Sword"),
+	},
 	makes = {ore = true, block = true, lump = true, ingot = true, chest = false},
 	oredef = {clust_scarcity = moreores.mithril_chunk_size * moreores.mithril_chunk_size * moreores.mithril_chunk_size,
 		clust_num_ores = moreores.mithril_ore_per_chunk,
@@ -312,7 +339,7 @@ oredefs.mithril = {
 end
 
 for orename,def in pairs(oredefs) do
-	add_ore(modname, def.description, orename, def)
+	add_ore(modname, def.descriptions, orename, def)
 end
 
 -- Copper rail (special node):
@@ -376,5 +403,5 @@ minetest.register_node("moreores:copper_rail", {
 })
 
 if minetest.setting_getbool("log_mods") then
-	minetest.log("action", S("[moreores] loaded."))
+	minetest.log("action", "[moreores] "..S("Loaded!"))
 end
