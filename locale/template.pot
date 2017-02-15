@@ -8,75 +8,127 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-10 13:36-0700\n"
+"POT-Creation-Date: 2017-02-14 22:12-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: init.lua:97
-#, c-format
-msgid "%s Ore"
+#: init.lua
+msgid "Silver Ore"
 msgstr ""
 
-#: init.lua:108
-#, c-format
-msgid "%s Block"
+#: init.lua
+msgid "Silver Lump"
 msgstr ""
 
-#: init.lua:130
-#, c-format
-msgid "%s Lump"
+#: init.lua
+msgid "Silver Ingot"
 msgstr ""
 
-#: init.lua:145
-#, c-format
-msgid "%s Ingot"
+#: init.lua
+msgid "Silver Block"
 msgstr ""
 
-#: init.lua:185
-#, c-format
-msgid "%s Sword"
+#: init.lua
+msgid "Silver Pickaxe"
 msgstr ""
 
-#: init.lua:191
-#, c-format
-msgid "%s Pickaxe"
+#: init.lua
+msgid "Silver Shovel"
 msgstr ""
 
-#: init.lua:197
-#, c-format
-msgid "%s Axe"
+#: init.lua
+msgid "Silver Axe"
 msgstr ""
 
-#: init.lua:203
-#, c-format
-msgid "%s Shovel"
+#: init.lua
+msgid "Silver Hoe"
 msgstr ""
 
-#: init.lua:208
-#, c-format
-msgid "%s Hoe"
+#: init.lua
+msgid "Silver Sword"
 msgstr ""
 
-#: init.lua:235
-msgid "Silver"
+#: init.lua
+msgid "Tin Ore"
 msgstr ""
 
-#: init.lua:270
-msgid "Tin"
+#: init.lua
+msgid "Tin Lump"
 msgstr ""
 
-#: init.lua:284
-msgid "Mithril"
+#: init.lua
+msgid "Tin Ingot"
 msgstr ""
 
-#: init.lua:346
+#: init.lua
+msgid "Tin Block"
+msgstr ""
+
+#: init.lua
+msgid "Tin Pickaxe"
+msgstr ""
+
+#: init.lua
+msgid "Tin Shovel"
+msgstr ""
+
+#: init.lua
+msgid "Tin Axe"
+msgstr ""
+
+#: init.lua
+msgid "Tin Hoe"
+msgstr ""
+
+#: init.lua
+msgid "Tin Sword"
+msgstr ""
+
+#: init.lua
+msgid "Mythril Ore"
+msgstr ""
+
+#: init.lua
+msgid "Mythril Lump"
+msgstr ""
+
+#: init.lua
+msgid "Mythril Ingot"
+msgstr ""
+
+#: init.lua
+msgid "Mythril Block"
+msgstr ""
+
+#: init.lua
+msgid "Mythril Pickaxe"
+msgstr ""
+
+#: init.lua
+msgid "Mythril Shovel"
+msgstr ""
+
+#: init.lua
+msgid "Mythril Axe"
+msgstr ""
+
+#: init.lua
+msgid "Mythril Hoe"
+msgstr ""
+
+#: init.lua
+msgid "Mythril Sword"
+msgstr ""
+
+#: init.lua
 msgid "Copper Rail"
 msgstr ""
 
-#: init.lua:374
-msgid "[moreores] loaded."
+#: init.lua
+msgid "Loaded!"
 msgstr ""
